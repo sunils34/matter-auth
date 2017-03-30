@@ -1,0 +1,30 @@
+{
+  "name": "matter-auth",
+  "version": "1.0.0",
+  "description": "Matter Front-end Authentication Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "start-dev": "NODE_ENV=development; nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunils34/matter-auth.git"
+  },
+  "author": "Sunil Sadasivan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sunils34/matter-auth/issues"
+  },
+  "homepage": "https://github.com/sunils34/matter-auth#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "mysql": "^2.13.0",
+    "passport": "^0.3.2",
+    "passport-google-oauth": "^1.0.0"
+  }
+}
